@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentsComponent } from './StudentsComponents';
 import { StudentComponent } from './student/student.component';
+import { RemoveSpacesPipe } from './remove-spaces.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentsComponent,
-    StudentComponent
+    StudentComponent,
+    RemoveSpacesPipe
   ],
   imports: [
     BrowserModule,
